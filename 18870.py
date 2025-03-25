@@ -1,8 +1,8 @@
 import sys
 
-input = sys.stdin.readline
+input = sys.stdin.readline # 입력을 받는다.
 
-n = int(input())
+n = int(input()) # 몇 번
 arr = list(map(int, input().split()))
 
 arr2 = sorted(list(set(arr)))
